@@ -70,3 +70,31 @@ Completed in 134ms (View: 133, DB: 0) | 200 OK [http://localhost/pages/home]
 Processing PagesController#contact (for 127.0.0.1 at 2010-02-16 19:23:09) [GET]
 Rendering pages/contact
 Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-02-16 20:12:46) [GET]
+Rendering pages/home
+Completed in 40ms (View: 38, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-02-16 20:12:56) [GET]
+Rendering pages/contact
+Completed in 52ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-02-16 20:43:39) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-02-16 20:43:47) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-02-16 20:43:54) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/pages/home]
