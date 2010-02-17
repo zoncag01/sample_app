@@ -35,3 +35,38 @@ Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-02-12 16:17:5
 [0m
   [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
 Completed in 14ms (View: 2, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-02-16 15:08:48) [GET]
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 57ms (View: 3, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-16 19:21:38) [GET]
+
+ActionController::RoutingError (No route matches "/controller/action" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-16 19:22:04) [GET]
+
+ActionController::RoutingError (No route matches "/page/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-02-16 19:22:13) [GET]
+Rendering pages/home
+Completed in 134ms (View: 133, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-02-16 19:23:09) [GET]
+Rendering pages/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/pages/contact]
